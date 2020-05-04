@@ -1,0 +1,17 @@
+
+#logoImage{   
+   float:left
+}
+#textHeading
+{  
+	text-align: center;
+}
+.clr
+{
+	clear:both;
+}
+body
+{
+    background-color:gainsboro;
+    
+}
