@@ -1,17 +1,25 @@
 .header img
 {
     background:black;
-    display:block;
-    margin-left:750px;
+    display:inline;
+    margin-left:2px;
     
+}
+#search
+{
+    float:center;
+    color:black;
+    margin:15px auto auto 350px;
+    width:300px;
 }
 
 #logo
 {
-    float:center;
+    float:left;
       width:125px;
     height:75px;
 }
+
 
 .main h2
 {
@@ -33,27 +41,32 @@ body
     margin:0px;
     background-image:url("../img/dark-gradient-background-vector-23445655.jpg");
     background-repeat: repeat-x;    
-    
+    padding:10px;
 }
 .header a
 {
     border-style:outset;    
-    border-width:1px;
+    border-width:2px;
     padding:5px 20px;
     color:white;
     font-family:serif;
     text-decoration: none;
     font-family: Verdana;
     border-radius:12px;
-    margin-top:100px;
-   
-   
-    
+    margin:10px 5px 2px 5px;
+    float:right;   
 }
 .header a:hover{
     background-color:white;
     color:black;
     transition: 0.6s ease;
+}
+#active
+{
+    background-color:white;
+    color:black;
+    font-weight: bold;
+
 }
 .main a{
    
@@ -69,6 +82,31 @@ p
 {
     color:white;
     display:block;
+}
+.main a
+{
+    border-style:outset;    
+    border-width:1px;
+    padding:5px 20px;
+    color:white;
+    font-family:serif;
+    text-decoration: none;
+    font-family: Verdana;
+    border-radius:12px;
+    margin:2px 5px 2px 5px;
+    float:left;
+   
+   
+    
+}
+.main
+{
+    margin:10px 0px 0px auto;
+}
+.main h2
+{
+    font-family:sans-serif;
+    
 }
 
 
