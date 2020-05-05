@@ -1,3 +1,57 @@
+.header img
+{
+    background:black;
+    display:inline;
+    margin-left:2px;
+    
+}
+#search
+{
+    float:center;
+    color:black;
+    margin:15px auto auto 350px;
+    width:300px;
+}
+
+#logo
+{
+    float:left;
+      width:125px;
+    height:75px;
+}
+.header a
+{
+    border-style:outset;    
+    border-width:2px;
+    padding:5px 20px;
+    color:white;
+    font-family:serif;
+    text-decoration: none;
+    font-family: Verdana;
+    border-radius:12px;
+    margin:10px 5px 2px 5px;
+    float:right;   
+}
+#navbar
+{
+    text-align:left;
+    
+    font-size:25px;
+    margin-top:1px;
+    
+}
+.header a:hover{
+    background-color:white;
+    color:black;
+    transition: 0.6s ease;
+}
+#active
+{
+    background-color:white;
+    color:black;
+    font-weight: bold;
+
+}
 body
 {
     margin: 0;

@@ -19,30 +19,6 @@
       width:125px;
     height:75px;
 }
-
-
-.main h2
-{
-    color:white;
-    font-family: "Titillium Web";
-    
-}
-#navbar
-{
-    text-align:left;
-    
-    font-size:25px;
-    margin-top:1px;
-    
-}
-
-body
-{
-    margin:0px;
-    background-image:url("../img/dark-gradient-background-vector-23445655.jpg");
-    background-repeat: repeat-x;    
-    padding:10px;
-}
 .header a
 {
     border-style:outset;    
@@ -56,6 +32,14 @@ body
     margin:10px 5px 2px 5px;
     float:right;   
 }
+#navbar
+{
+    text-align:left;
+    
+    font-size:25px;
+    margin-top:1px;
+    
+}
 .header a:hover{
     background-color:white;
     color:black;
@@ -68,6 +52,24 @@ body
     font-weight: bold;
 
 }
+
+.main h2
+{
+    color:white;
+    font-family: "Titillium Web";
+    
+}
+
+
+body
+{
+    margin:0px;
+    background-image:url("../img/dark-gradient-background-vector-23445655.jpg");
+    background-repeat: repeat-x;    
+    padding:10px;
+}
+
+
 .main a{
    
     border-radius:8px;
