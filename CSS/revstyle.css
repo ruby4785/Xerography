@@ -6,7 +6,7 @@
 header
 {
     width:100%;
-    position:fixed;
+    
     height:50px;
     padding-top:10px;
     border-bottom-style: solid;
@@ -119,4 +119,9 @@ body
     padding:0px 5px;
     
     
+}
+h2
+{
+    margin-top:30px;
+    color:white;
 }
