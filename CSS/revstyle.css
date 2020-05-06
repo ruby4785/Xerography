@@ -27,6 +27,7 @@ header
 {
     color:red; 
     margin-right:15px;
+    margin-left:5px;    
    
 }
 
@@ -50,12 +51,13 @@ header
 }
 #login .register
 {
-    border-style:outset;
-    color:black;
+    border-style:solid;
+     font-family:"AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:white;
     font-weight: bold;
-    background-color:white;
+    background-color:#3273a8;
     border-color:black;
-    border-width:2px;
+    border-width:3px;
     padding:5px 40px;
     border-radius:10px;
     
