@@ -4,7 +4,7 @@ const upBtn = document.querySelector('.up-btn');
 const downBtn = document.querySelector('.down-btn');
 
 const firstItem = 0;
-const lastItem = 3;
+const lastItem = 4;
 
 let selectedItem = 0;
 const selectedHeight = current.offsetHeight;
