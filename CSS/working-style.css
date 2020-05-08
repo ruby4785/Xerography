@@ -4,7 +4,8 @@
 /* General styling */
 * {
 	padding: 0;
-	margin: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header
 {
@@ -116,7 +117,7 @@ body
 }
 .list
 {
-    margin-top:15%;
+    margin-top:10%;
     margin-left:400px;
     display:inline-block;
     width:700px;
