@@ -146,7 +146,7 @@ body
     list-style: none;
     
 }
-<<<<<<< HEAD
+
 .list ul li
 {
     border-style:solid;
@@ -171,5 +171,5 @@ body
 }
 .controls button:first-child {
 	margin-bottom: 20px;
->>>>>>> 19bea3c23b602287657c84ace963f66d7ca3a4cc
+
 }
