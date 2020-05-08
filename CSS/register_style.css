@@ -114,15 +114,12 @@ header
 body
 {
     background-image: url("../img/background.jpg");
-    height: 1000vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
     padding: 0px 5px;
 }
-<<<<<<< HEAD
-
-=======
 .long
 {
     width: 389px;
@@ -136,7 +133,6 @@ body
     box-sizing: border-box;
     padding: 70px 30px;
 }
->>>>>>> 19bea3c23b602287657c84ace963f66d7ca3a4cc
 .mg1
 {
     width: 100px;
@@ -163,7 +159,7 @@ h1
 .long input
 {
     width: 100%;
-   
+    margin-bottom: 20px;
 }
 .long input[type="text"],input[type="password"],input[type="email"],input[type="number"],input[type="date"]
 {
@@ -203,7 +199,6 @@ h1
 {
     color: #ffc107;
 }
-
 
 
 
