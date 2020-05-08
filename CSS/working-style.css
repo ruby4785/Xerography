@@ -36,12 +36,12 @@ header
 
 #login ul
 {
-    /*float:right;*/
-    display:inline-block;
+    float : right;
+    /*display:inline-block;*/
     
 }
 #login ul li{
-    float:left;
+    float:right;
     margin:5px 20px 0px 0px;
         
     padding:2px 5px;
