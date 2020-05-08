@@ -6,11 +6,6 @@
 	padding: 0;
 	margin: 0;
 }
-*
-{
-    margin:0px;
-    padding:0px;
-}
 header
 {
     width:100%;
@@ -80,10 +75,6 @@ header
     list-style: none;
     float:left;
     margin-left:25%;
-   
-    
-    
-    
 }
 .navbar ul li a
 {
@@ -96,8 +87,6 @@ header
     color:white;
     border-radius: 20px;
     margin:0px 15px 0px 0px; 
-  
-    
 } 
 .navbar a:hover
 {
@@ -141,6 +130,7 @@ body
 {
     color:white;
 }
+
 .list ul
 {
     list-style: none;
@@ -150,26 +140,9 @@ body
 .list ul li
 {
     border-style:solid;
-    border-color:rgba(255,255,255,0.6);
+    border-color:rgba(14, 13, 13, 0.6);
     background-color:rgba(0,0,0,0.5);
     font-family:Roboto;
     margin-bottom:10px;
-=======
+}
 
-/* Controls styling */
-.controls button {
-	background: white;
-	display: block;
-	border: 0.5px solid #ccc;
-	padding: 10px;
-	cursor: pointer;
-	outline: 0;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-}
-.contorls button:hover {
-	background: #ccc;
-}
-.controls button:first-child {
-	margin-bottom: 20px;
-
-}
