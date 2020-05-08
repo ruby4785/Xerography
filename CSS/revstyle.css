@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Montserrat:ital,wght@1,300&family=Oswald:wght@600&family=PT+Sans+Narrow:wght@700&display=swap');
+
+
 *
 {
     margin:0px;
@@ -7,7 +11,7 @@ header
 {
     width:100%;
     position:sticky;
-  top:0px;
+    top:0px;
     height:50px;
     padding-top:10px;
     border-bottom-style: solid;
@@ -34,8 +38,9 @@ header
 
 #login ul
 {
-    /*float : right;*/
+    float : right;
     display:inline-block;
+    margin-top:3px;
     
 }
 #login ul li{
@@ -125,6 +130,7 @@ h2
 {
     margin-top:30px;
     color:white;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 label
 {
@@ -134,11 +140,16 @@ label
 .selector
 {
     float:center;
-    margin-left:30%;
+    margin-left:5%;
+    margin-right:auto;
+    margin-top:5px;
+   font-family: 'Oswald';
+    
 }
 .selector select
 {
   margin-right:30px;
+    margin-top:0px;
 }
 main
 {
@@ -156,22 +167,25 @@ main
     
 
 }
-.notes ui 
+.notes ul
 {
     list-style: none;
 }
+.notes form ul li
+{
+   font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
 .notes label
 {
     margin-left:2px;
 }
 .notes input
 {
-    margin-left:38%;
+    margin-left:25%;
 }
-#select
-{
-    margin-left:30%;
-}
+
 .checkout
 {
     float:center;
@@ -194,18 +208,38 @@ main
 .checkout ul
 {
     list-style: none;
-    margin-left:40%
+    margin-left:37%;
+    margin-right:auto;
+    float:left;
     
 }
 .checkout ul li
 {
     float:left;
-    margin-top:10px 30px auto 3px;
+    margin:10px 30px auto 3px;
     
     
 }
 .notes ul
 {
     list-style:none;
+    
+}
+.box
+{
+    width:45%;
+    border:2px solid white;
+    border-radius:20px;
+    margin-right:auto;
+    margin-left:auto;
+    height:400px;
+    background-color:rgba(0,0,0,0.6);
+    padding:5px 0px;
+}
+.notes h2
+{
+    display:block;
+    margin-left:3%;
+    font-family: 'Jost', sans-serif;
 }
 
