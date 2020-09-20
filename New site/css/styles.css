@@ -1,49 +1,57 @@
+
+
+
 body
 {
-background-color:#d789d7;
-
+background-color:#821752;
+font-family: font-family: 'Cabin', sans-serif;
+}
+.container-fluid
+{
+  padding:2rem 5rem;
 }
 .navigation
 {
-  margin-left:70%;
+  margin-left:65%;
 
 }
 .navbar
 {
-  background-color: #9d65c9;
+  background-color:#821752;
 
 }
 a
 {
   color:white;
 }
-.main
-{
-  height: 100vh;
-}
 .monitor
 {
-  height: 200px;
-  margin-left:30%;
-
+  height: 500px;
+  padding-left:20%;
+  padding-top:10%;
 }
 .tag-line
 {
-  width:40%;
-  display: inline-block;
-  position: relative;
-  top: 30%;
-  margin-left:3%;
-}
-.logo-image
-{
-  display: inline-block;
-  width:40%;
-  position: relative;
-  top:20%;
-  margin-left:15%;
+  padding-top:10%;
+
 }
 .btn
 {
-  margin:2% 2%;
+  padding:1rem;
+  margin-top:5rem;
+  margin-left:2rem;
+}
+h1
+{
+  color:white;
+  margin-left:15%;
+  font-family: 'Cabin', sans-serif;
+}
+.butt
+{
+  margin-left:15%;
+}
+.navbar-brand
+{
+   font-family: 'Merriweather', serif;
 }
