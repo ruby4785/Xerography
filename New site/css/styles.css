@@ -1,0 +1,49 @@
+body
+{
+background-color:#d789d7;
+
+}
+.navigation
+{
+  margin-left:70%;
+
+}
+.navbar
+{
+  background-color: #9d65c9;
+
+}
+a
+{
+  color:white;
+}
+.main
+{
+  height: 100vh;
+}
+.monitor
+{
+  height: 200px;
+  margin-left:30%;
+
+}
+.tag-line
+{
+  width:40%;
+  display: inline-block;
+  position: relative;
+  top: 30%;
+  margin-left:3%;
+}
+.logo-image
+{
+  display: inline-block;
+  width:40%;
+  position: relative;
+  top:20%;
+  margin-left:15%;
+}
+.btn
+{
+  margin:2% 2%;
+}
