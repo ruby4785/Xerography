@@ -1,10 +1,7 @@
-
-
-
 body
 {
 background-color:#821752;
-font-family: font-family: 'Cabin', sans-serif;
+font-family:'Cabin', sans-serif;
 }
 .container-fluid
 {
@@ -12,7 +9,7 @@ font-family: font-family: 'Cabin', sans-serif;
 }
 .navigation
 {
-  margin-left:65%;
+  margin-left:63%;
 
 }
 .navbar
@@ -23,6 +20,7 @@ font-family: font-family: 'Cabin', sans-serif;
 a
 {
   color:white;
+  text-decoration: none;
 }
 .monitor
 {
@@ -53,5 +51,10 @@ h1
 }
 .navbar-brand
 {
-   font-family: 'Merriweather', serif;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 25px;
+}
+.navbar-nav
+{
+  font-family: 'Epilogue', sans-serif;
 }
